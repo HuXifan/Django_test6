@@ -16,13 +16,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1T5S1zmPQTTl4Cg3VFkq9S9wB6z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/booktest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/booktest" />
     </key>
   </component>
@@ -75,7 +77,7 @@
       <updated>1572748251260</updated>
       <workItem from="1572748252697" duration="124000" />
       <workItem from="1572748377695" duration="72000" />
-      <workItem from="1572748451117" duration="3121000" />
+      <workItem from="1572748451117" duration="5588000" />
     </task>
     <servers />
   </component>
