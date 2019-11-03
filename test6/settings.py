@@ -125,6 +125,6 @@ STATICFILES_DIRS = [
 
 TINYMCE_DEFAULT_CONFIG = {
     'theme': 'advanced',
-    'width': 400,
-    'height': 100
+    'width': 600,
+    'height': 400
 }
