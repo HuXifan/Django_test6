@@ -35,8 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'booktest',
-    'tinymce',
+    'booktest',  # 注册应用
+    'tinymce',  # 注册富文本编辑器
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -76,7 +76,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dj18',
-        'HOST': 'localhost',
+        'HOST': '10.10.21.29',
         'PORT': 3306,
         'USER': 'huxf',
         'PASSWORD': 'Root1'
@@ -123,8 +123,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
+# 富文本编辑器的配置
 TINYMCE_DEFAULT_CONFIG = {
-    'theme': 'advanced',
-    'width': 600,
+    'theme': 'advanced',  # 主题:高级
+    'width': 600,  # 指定宽和高
     'height': 400
 }
