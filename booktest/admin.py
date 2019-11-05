@@ -10,3 +10,4 @@ class GoodsInfoAdmin(admin.ModelAdmin):
 
 
 admin.site.register(GoodsInfo, GoodsInfoAdmin)
+admin.site.register(GoodsTest, GoodsInfoAdmin)
